@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masuk / Login ke Akun Blibli Sekarang</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.2-dist/css/bootstrap.min.css" />
+
+    <style>
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container mt-4 text-center justify-content-center align-content-center">
+      <di class="row m-0 h-100 shadow rounded-4">
+        <div class="col p-0 mt-4 text-center">
+          <div class="d-flex justify-content-center align-content-center">
+            <img class="p-0 m-0" src="blibli-login.svg" alt="" />
+          </div>
+        </div>
+        <div class="col p-2 m-4 text-center">
+          <h3 class="h3 fw-medium text-primary">Masuk ke Akunmu</h3>
+          <form class="w-75 shadow rounded-4 p-3 pt-4 m-auto mt-3">
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email/no HP</label>
+            </div>
+            <div class="form-floating">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+              />
+              <label for="floatingPassword">Password</label>
+            </div>
+            <a href=""> <h6 class="h6 text-start mt-3">Lupa kata sandi?</h6></a>
+            <button class=" btn btn-primary btn w-25 m rounded-5">
+              Masuk
+            </button>
+            <div
+              class="col mt-3 d-flex justify-content-center align-items-center"
+            >
+              <div class="ms-1 fs-6">
+                <a href="">
+                  <svg
+                    data-v-483079c7=""
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    preserveAspectRatio="xMidYMid meet"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    data-v-3bc9487c=""
+                  >
+                    <path
+                      d="M12.3048 12.3648C12.1049 12.4547 11.8751 12.4547 11.6752 12.3648L2 7.8576V6.7283C2 5.22923 3.21939 4.00999 4.71864 4H19.2714C20.7706 4 21.99 5.21924 21.99 6.71831V7.8476L12.3048 12.3648ZM11.985 13.4341C12.2349 13.4341 12.4948 13.3841 12.7246 13.2742H12.7346L22 8.95688V17.2817C22 18.7808 20.7806 20 19.2814 20H4.71864C3.21939 20 2 18.7808 2 17.2817V8.95688L11.2454 13.2742C11.4853 13.3841 11.7351 13.4341 11.985 13.4341Z"
+                    ></path>
+                  </svg>
+                  Masuk dengan nomor HP
+                </a>
+              </div>
+              <div class="fs-6 ms-2">
+                <a href=""
+                  ><svg
+                    data-v-483079c7=""
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    preserveAspectRatio="xMidYMid meet"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    data-v-3bc9487c=""
+                  >
+                    <path
+                      d="M19.4911 2H15.4931C14.1131 2 12.9944 3.11929 12.9944 4.5V8.5C12.9944 9.88071 14.1131 11 15.4931 11H19.4911C20.8711 11 21.9898 9.88071 21.9898 8.5V4.5C21.9898 3.11929 20.8711 2 19.4911 2ZM8.49668 13H4.49872C3.11872 13 2 14.1193 2 15.5V19.5C2 20.8807 3.11872 22 4.49872 22H8.49668C9.87669 22 10.9954 20.8807 10.9954 19.5V15.5C10.9954 14.1193 9.87669 13 8.49668 13ZM17.9621 14.01C17.9621 13.45 18.4118 13 18.9715 13L18.9815 13.01C20.6507 13.01 22 14.37 22 16.03C22 16.59 21.5502 17.04 20.9905 17.04C20.4308 17.04 19.981 16.59 19.981 16.03C19.981 15.47 19.5313 15.02 18.9715 15.02C18.4118 15.02 17.9621 14.57 17.9621 14.01ZM20.9903 17.98C20.4306 17.98 19.9808 18.43 19.9808 18.99C19.9808 19.55 19.531 20 18.9713 20H16.0028C15.4531 20 14.9934 19.55 14.9934 18.99V16.02C14.9934 15.73 15.1233 15.45 15.3432 15.26C15.5231 15.1 15.763 15.02 16.0028 15.02C16.5626 15.02 17.0123 14.57 17.0123 14.01C17.0123 13.45 16.5626 13 16.0028 13C15.2732 13 14.5736 13.26 14.0339 13.73C13.3742 14.3 12.9944 15.14 12.9944 16.01V18.98C12.9944 20.64 14.3437 22 16.0128 22H18.9813C20.6405 22 21.9998 20.65 21.9998 18.98C21.9998 18.42 21.55 17.97 20.9903 17.97V17.98ZM5.01846 2H7.97695H7.98694C9.65609 2 11.0054 3.36 11.0054 5.02V7.99C11.0054 9.66 9.64609 11.01 7.98694 11.01H5.01846C3.34931 11.01 2 9.65 2 7.99V5.02C2 3.35 3.34931 2 5.01846 2ZM7.97695 8.99C8.53666 8.99 8.98643 8.53 8.98643 7.98L8.99643 7.99V5.02C8.99643 4.46 8.53666 4.01 7.98694 4.01H5.01846C4.45874 4.01 4.00897 4.47 4.00897 5.02V7.98C4.00897 8.54 4.46874 8.99 5.01846 8.99H7.97695Z"
+                    ></path>
+                  </svg>
+                  Masuk dengan QR</a
+                >
+              </div>
+              <div class="px-2 ms-auto bg-danger rounded-2 text-white">
+                Baru
+              </div>
+            </div>
+          </form>
+          <div class="d-flex justify-content-center align-items-center mt-3">
+            <div class="d-flex p-2 me-4 mt-3 rounded-4 align-middle shadow btn">
+              <img
+                src="https://www.static-src.com/frontend/member/static/3.90.0-1/desktop/img/facebook.3cbc9602.svg"
+                alt=""
+              />
+              <p class="m-0 ms-2 p-1">Facebook</p>
+            </div>
+            <div class="d-flex p-2 mt-3 rounded-4 align-middle shadow btn">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 48 48"
+                width="23"
+              >
+                <g>
+                  <path
+                    fill="#EA4335"
+                    d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"
+                  ></path>
+                  <path
+                    fill="#4285F4"
+                    d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"
+                  ></path>
+                  <path
+                    fill="#FBBC05"
+                    d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"
+                  ></path>
+                  <path
+                    fill="#34A853"
+                    d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"
+                  ></path>
+                  <path fill="none" d="M0 0h48v48H0z"></path>
+                </g>
+              </svg>
+              <p class="m-0 ms-2 p-1">Google</p>
+            </div>
+          </div
+          <div class="mt-3">
+            <p class="text-secondary">
+              Tidak punya akun? <a href=""> Daftar</a>
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <script src="../bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    </div>
+  </body>
+</html>
